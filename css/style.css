@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+.header {
+    padding-top: 20px;
+    text-align: center;
+}
+.container .header h1{
+    text-align: center;
+    padding-top: 25px;
+}
+.container .header p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.container .header a{
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.body h3 {
+    padding-top: 40px;
+    font-size: 16px;
+    padding-bottom: 40px;
+    color: gray;
+    padding-left: 25px;
+}
+.container .box h2{
+    color: gray;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container .box h3{
+    color: green;
+}
+.container .box p{
+    font-size: 25px;
+    padding-left: 25px;
+}
+.container .box-2 h2 {
+    color: gray;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.container .box-2 span{
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container .box-2  p{
+    padding-top: 10px;
+}
+.container .box-2  p:last-child{
+    padding-top: 10px;
+    color: grey;
+} 
+.container .box-3 h1{
+    padding-top: 25px;
+}
+.container .box-3 .uli{
+    display: flex;
+    gap: 350px;
+}
+.container .box-3 .uli ul{
+    padding-top: 20px;
+}
+.container .box-3 .uli ul li{
+    padding-top: 5px;
+}
+.container .footer h1{
+    padding-top: 20px;
+}
+.container .footer p{
+    color: grey;
+    padding-top: 10px;
+}
